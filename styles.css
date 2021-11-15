@@ -85,6 +85,9 @@ li {
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -93,7 +96,9 @@ li {
 .section-three {
     background-color: lightcoral;
     height: 800px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 iframe { 
@@ -101,13 +106,14 @@ iframe {
     
 }
 
-
 /* section 4 embed audio */
 
 .section-four {
     background-color: darkslateblue;
     height: 500px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* section 5 media items */
@@ -118,4 +124,21 @@ iframe {
 
 }
 
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    flex: 1;
+    padding: 10px;
+}
+
+.mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
 
