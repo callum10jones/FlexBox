@@ -34,6 +34,16 @@ ul {
     margin-left: auto;
 }
 
+button {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
 li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
